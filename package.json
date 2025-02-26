@@ -4,7 +4,7 @@
   "description": "second lab on subject VebProg",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "private": true,
   "repository": {
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/LuciferFrost7/NODE_L2/issues"
   },
-  "homepage": "https://github.com/LuciferFrost7/NODE_L2#readme"
+  "homepage": "https://github.com/LuciferFrost7/NODE_L2#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "start": "^5.1.0"
+  }
 }
